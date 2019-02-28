@@ -1,2 +1,4 @@
 .u-center-text { text-align: center; }
-.u-margin-bottom-8 { margin-bottom: 8rem; }
+.u-margin-bottom-small { margin-bottom: $margin-bottom-small; }
+.u-margin-bottom-medium { margin-bottom: $margin-bottom-medium; }
+.u-margin-bottom-big { margin-bottom: $margin-bottom-big; }
