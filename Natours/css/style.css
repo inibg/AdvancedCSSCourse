@@ -181,7 +181,7 @@ body {
   .composition__photo {
     width: 55%;
     box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.4);
-    border-radius: 2px;
+    border-radius: 0.3rem;
     position: absolute;
     transition: all .2s;
     outline-offset: 2rem; }
@@ -210,7 +210,7 @@ body {
   font-size: 1.5rem;
   padding: 2.5rem;
   text-align: center;
-  border-radius: 3px;
+  border-radius: 0.3rem;
   box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
   transition: transform .2s; }
   .feature-box__icon {
@@ -238,7 +238,7 @@ body {
     left: 0;
     width: 100%;
     backface-visibility: hidden;
-    border-radius: 3px;
+    border-radius: 0.3rem;
     overflow: hidden;
     box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15); }
     .card__side--front {
@@ -261,8 +261,8 @@ body {
     background-blend-mode: screen;
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
     clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
-    border-top-left-radius: 3px;
-    border-top-right-radius: 3px; }
+    border-top-left-radius: 0.3rem;
+    border-top-right-radius: 0.3rem; }
     .card__picture--1 {
       background-image: linear-gradient(to right bottom, #ffb900, #ff7730), url("../img/nat-5.jpg"); }
     .card__picture--2 {
@@ -323,7 +323,7 @@ body {
   margin: 0 auto;
   box-shadow: 0 3rem 6rem rgba(0, 0, 0, 0.1);
   background-color: rgba(255, 255, 255, 0.6);
-  border-radius: 3px;
+  border-radius: 0.3rem;
   padding: 3rem;
   padding-left: 6rem;
   font-size: 1.6rem;
@@ -450,3 +450,17 @@ body {
   padding: 15rem 0;
   background-color: transparent;
   position: relative; }
+
+.section-book {
+  padding: 15rem 0;
+  background-image: linear-gradient(to right bottom, #7ed56f, #28b485); }
+
+.book {
+  background-image: linear-gradient(105deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 50%, transparent 50%), url("../img/nat-10.jpg");
+  background-size: cover;
+  height: 50rem;
+  border-radius: 0.3rem;
+  box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.2); }
+  .book__form {
+    width: 50%;
+    padding: 6rem; }
