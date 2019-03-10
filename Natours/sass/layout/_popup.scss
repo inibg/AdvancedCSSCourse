@@ -32,6 +32,10 @@
     &__left {
         width: 33.333333%;
         display: table-cell;
+
+        @include respond(tab-port) {
+            display: table-row;
+        }
     }
 
     &__right {
@@ -44,6 +48,11 @@
     &__img {
         display: block;
         width: 100%;
+
+        @include respond(tab-port) {
+            display: inline-block;
+            width: 50%;
+        }
     }
 
     &__text {
